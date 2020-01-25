@@ -1,0 +1,159 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* End of reset */
+/* Start of listing */
+header {
+  background: #0c002b;
+  color: white;
+  overflow: auto;
+  padding: 20px 15px;
+  text-transform: capitalize;
+}
+
+header .logo {
+  float: left;
+}
+
+header nav ul li {
+  float: right;
+}
+
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 7px 20px;
+  font-weight: 300;
+  font-size: .9rem;
+}
+
+header nav ul li a:hover {
+  color: #FF718E;
+}
+
+header nav ul li a.register-btn {
+  background: #FF718E;
+  padding: 10px 25px;
+  text-align: center;
+  color: white;
+  border-radius: 5px;
+}
+
+/* end of listing */
+#filter {
+  background: #faf7f5;
+  width: 30%;
+}
+
+#filter .inside {
+  padding: 20px;
+  max-width: 300px;
+}
+
+#filter h4 {
+  font-size: 0.9rem;
+  margin-bottom: 25px;
+  font-weight: 500px;
+  text-transform: uppercase;
+}
+
+#filter select {
+  background: transparent;
+  padding: 10px;
+  font-size: 1rem;
+  font-weight: 300;
+  color: #1b1b1b;
+  display: block;
+  margin-bottom: 25px;
+  width: 100%;
+}
+
+#filter .filters .title {
+  font-size: 0.9rem;
+  display: block;
+  margin-bottom: 1rem;
+  color: #ADA8AA;
+}
+
+#filter .filters input[type="text"] {
+  display: inline-block;
+  width: 45%;
+  margin-right: 2.5%;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+  font-size: 1rem;
+  padding: 0.4rem;
+}
+
+#filter .filters.facilities label {
+  display: block;
+  width: 100%;
+  padding: 10px 0;
+}
+
+#filter .filters.facilities label input[type="checkbox"] {
+  float: right;
+}
+
+*, html, body {
+  font-family: sans-serif;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*::before, *::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+/*# sourceMappingURL=main.css.map */
