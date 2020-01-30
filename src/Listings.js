@@ -10,8 +10,8 @@ class Listings extends Component{
             <section className="search-area">
                 <input type="text" name="search"/>
             </section>
-            <selection className="sortby-area">
-                <div>
+            <section className="sortby-area">
+                <div className="results">
                     390 results found
                 </div>
                 <div className="sort-options">
@@ -20,32 +20,31 @@ class Listings extends Component{
                         <option value="price-desc">Lowest Price</option>
                     </select>
                     <div className="view">
-                        list icon, grid icon.
+                    <i className="fas fa-list"></i> <i className="fas fa-th"></i>
                     </div>
                 </div>
-            </selection>
+            </section>
             <section className="listings-results">
                 <div className="listing">
                     <div className="listing-img">
-                        imagehere
                         <span className="Address">Address</span>
                         <div className="details">
                             <div className="user-image">
-                               imagehere
+                    
                             </div>
                             <div className="user-details">
                                 <span className="user-name">Nina Smith</span>
                                 <span className="post-date">05/05/2017</span>
                             </div>
                             <div className="listing-details">
-                                <div className="floor-space">squareimagehere <span>1000 ft<sup>2</sup></span></div>
-                                <div className="bedrooms"> bed image here <span>3 bedrooms</span></div>
+                                <div className="floor-space"><i className="far fa fa-square"></i> <span>1000 ft<sup>2</sup></span></div>
+                                <div className="bedrooms"> <i className="fas fa fa-bed"></i> <span>3 bedrooms</span></div>
                             </div>
                         </div>
                     </div>
                     <div className="bottom-info">
                         <span>$1000 / month</span>
-                        <span>LOCATIONHERE Ridgewood, NY</span>
+                        <span><i className="fas fa-map-marker-alt"></i> Ridgewood, NY</span>
                     </div>
                 </div>
             </section>

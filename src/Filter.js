@@ -33,8 +33,8 @@ class Filter extends Component{
                     </div>
                     <div className="filters facilities">
                         <span className="title">Extras</span>
-                        <label for="facilities"><span>Elevators</span><input type="checkbox" value="elevator" name="facilities"></input></label>
-                        <label for="facilities"><span>Swimming Pool</span><input type="checkbox" value="swimming-pool" name="facilities"></input></label>
+                        <label htmlFor ="facilities"><span>Elevators</span><input type="checkbox" value="elevator" name="facilities"></input></label>
+                        <label htmlFor ="facilities"><span>Swimming Pool</span><input type="checkbox" value="swimming-pool" name="facilities"></input></label>
                     </div>
                 </div>
             </section>
